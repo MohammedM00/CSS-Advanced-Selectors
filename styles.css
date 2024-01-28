@@ -1,0 +1,91 @@
+/* Selecting list items with class "red" within the first list */
+.list1 li.red {
+    color: red;
+  }
+  
+  /* Selecting specific items within the second list and changing their font size */
+  .list2 li:nth-child(2),
+  .list2 li:nth-child(4) {
+    font-size: 24px;
+  }
+  
+  /* Styling for the divs */
+  .box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for the paragraphs within the divs */
+  .box p {
+    margin: 0;
+    padding: 5px;
+  }
+  
+  /* Setting text color to white for normal text within the second div */
+  .box:nth-child(2) p {
+    color: white;
+  }
+  
+  /* Italicizing the first p tag in each div */
+  .box p:first-child {
+    font-style: italic;
+  }
+  
+  /* Adding some basic styling for better visibility */
+  ul, ol {
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  /* Adding a class for better readability of the large text items */
+  .large-text {
+    font-weight: bold;
+  }
+
+  /* Styling for the button */
+button {
+    background-color: initial; /* Resetting background color to default */
+    color: black; /* Setting the text color to black */
+    border: 1px solid #ccc; /* Adding a border for better visibility */
+    padding: 5px 10px; /* Adding some padding for better appearance */
+    cursor: pointer; /* Changing the cursor to indicate interactivity */
+  }
+  
+  /* Changing the button color to blue on hover */
+  button:hover {
+    background-color: blue;
+    color: white; /* Changing text color to white for better visibility on blue background */
+  }
+
+  /* ... (your existing styles) */
+
+/* Styling for the button */
+button {
+    background-color: initial; /* Resetting background color to default */
+    color: black; /* Setting the text color to black */
+    border: 1px solid #ccc; /* Adding a border for better visibility */
+    padding: 5px 10px; /* Adding some padding for better appearance */
+    cursor: pointer; /* Changing the cursor to indicate interactivity */
+    transition: border-radius 0.3s, transform 0.3s; /* Adding transition for smooth effects */
+  }
+  
+  /* Changing the button color to blue on hover */
+  button:hover {
+    background-color: blue;
+    color: white; /* Changing text color to white for better visibility on blue background */
+  }
+  
+  /* Changing the button border to sharp edges and growing the button on click */
+  button:active {
+    border-radius: 0; /* Setting border-radius to 0 for sharp edges */
+    transform: scale(2, 1.5); /* Growing the button to 200px by 150px */
+  }
+  
+  
